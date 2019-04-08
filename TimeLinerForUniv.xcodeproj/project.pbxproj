@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC659F3F225B057D00756360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC659F3E225B057D00756360 /* AppDelegate.swift */; };
+		EC659F41225B057D00756360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC659F40225B057D00756360 /* ViewController.swift */; };
+		EC659F44225B057D00756360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC659F42225B057D00756360 /* Main.storyboard */; };
+		EC659F47225B057D00756360 /* TimeLinerForUniv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC659F45225B057D00756360 /* TimeLinerForUniv.xcdatamodeld */; };
+		EC659F49225B057E00756360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC659F48225B057E00756360 /* Assets.xcassets */; };
+		EC659F4C225B057E00756360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC659F4A225B057E00756360 /* LaunchScreen.storyboard */; };
+		EC659F57225B057E00756360 /* TimeLinerForUnivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC659F56225B057E00756360 /* TimeLinerForUnivTests.swift */; };
+		EC659F62225B057E00756360 /* TimeLinerForUnivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC659F61225B057E00756360 /* TimeLinerForUnivUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC659F53225B057E00756360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC659F33225B057D00756360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC659F3A225B057D00756360;
+			remoteInfo = TimeLinerForUniv;
+		};
+		EC659F5E225B057E00756360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC659F33225B057D00756360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC659F3A225B057D00756360;
+			remoteInfo = TimeLinerForUniv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC659F3B225B057D00756360 /* TimeLinerForUniv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLinerForUniv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC659F3E225B057D00756360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC659F40225B057D00756360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC659F43225B057D00756360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC659F46225B057D00756360 /* TimeLinerForUniv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeLinerForUniv.xcdatamodel; sourceTree = "<group>"; };
+		EC659F48225B057E00756360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC659F4B225B057E00756360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC659F4D225B057E00756360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC659F52225B057E00756360 /* TimeLinerForUnivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLinerForUnivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC659F56225B057E00756360 /* TimeLinerForUnivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLinerForUnivTests.swift; sourceTree = "<group>"; };
+		EC659F58225B057E00756360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC659F5D225B057E00756360 /* TimeLinerForUnivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLinerForUnivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC659F61225B057E00756360 /* TimeLinerForUnivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLinerForUnivUITests.swift; sourceTree = "<group>"; };
+		EC659F63225B057E00756360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC659F38225B057D00756360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659F4F225B057E00756360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659F5A225B057E00756360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC659F32225B057D00756360 = {
+			isa = PBXGroup;
+			children = (
+				EC659F3D225B057D00756360 /* TimeLinerForUniv */,
+				EC659F55225B057E00756360 /* TimeLinerForUnivTests */,
+				EC659F60225B057E00756360 /* TimeLinerForUnivUITests */,
+				EC659F3C225B057D00756360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC659F3C225B057D00756360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC659F3B225B057D00756360 /* TimeLinerForUniv.app */,
+				EC659F52225B057E00756360 /* TimeLinerForUnivTests.xctest */,
+				EC659F5D225B057E00756360 /* TimeLinerForUnivUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC659F3D225B057D00756360 /* TimeLinerForUniv */ = {
+			isa = PBXGroup;
+			children = (
+				EC659F3E225B057D00756360 /* AppDelegate.swift */,
+				EC659F40225B057D00756360 /* ViewController.swift */,
+				EC659F42225B057D00756360 /* Main.storyboard */,
+				EC659F48225B057E00756360 /* Assets.xcassets */,
+				EC659F4A225B057E00756360 /* LaunchScreen.storyboard */,
+				EC659F4D225B057E00756360 /* Info.plist */,
+				EC659F45225B057D00756360 /* TimeLinerForUniv.xcdatamodeld */,
+			);
+			path = TimeLinerForUniv;
+			sourceTree = "<group>";
+		};
+		EC659F55225B057E00756360 /* TimeLinerForUnivTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC659F56225B057E00756360 /* TimeLinerForUnivTests.swift */,
+				EC659F58225B057E00756360 /* Info.plist */,
+			);
+			path = TimeLinerForUnivTests;
+			sourceTree = "<group>";
+		};
+		EC659F60225B057E00756360 /* TimeLinerForUnivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC659F61225B057E00756360 /* TimeLinerForUnivUITests.swift */,
+				EC659F63225B057E00756360 /* Info.plist */,
+			);
+			path = TimeLinerForUnivUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC659F3A225B057D00756360 /* TimeLinerForUniv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC659F66225B057E00756360 /* Build configuration list for PBXNativeTarget "TimeLinerForUniv" */;
+			buildPhases = (
+				EC659F37225B057D00756360 /* Sources */,
+				EC659F38225B057D00756360 /* Frameworks */,
+				EC659F39225B057D00756360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLinerForUniv;
+			productName = TimeLinerForUniv;
+			productReference = EC659F3B225B057D00756360 /* TimeLinerForUniv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC659F51225B057E00756360 /* TimeLinerForUnivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC659F69225B057E00756360 /* Build configuration list for PBXNativeTarget "TimeLinerForUnivTests" */;
+			buildPhases = (
+				EC659F4E225B057E00756360 /* Sources */,
+				EC659F4F225B057E00756360 /* Frameworks */,
+				EC659F50225B057E00756360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC659F54225B057E00756360 /* PBXTargetDependency */,
+			);
+			name = TimeLinerForUnivTests;
+			productName = TimeLinerForUnivTests;
+			productReference = EC659F52225B057E00756360 /* TimeLinerForUnivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC659F5C225B057E00756360 /* TimeLinerForUnivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC659F6C225B057E00756360 /* Build configuration list for PBXNativeTarget "TimeLinerForUnivUITests" */;
+			buildPhases = (
+				EC659F59225B057E00756360 /* Sources */,
+				EC659F5A225B057E00756360 /* Frameworks */,
+				EC659F5B225B057E00756360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC659F5F225B057E00756360 /* PBXTargetDependency */,
+			);
+			name = TimeLinerForUnivUITests;
+			productName = TimeLinerForUnivUITests;
+			productReference = EC659F5D225B057E00756360 /* TimeLinerForUnivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC659F33225B057D00756360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = GEGEGi;
+				TargetAttributes = {
+					EC659F3A225B057D00756360 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EC659F51225B057E00756360 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EC659F3A225B057D00756360;
+					};
+					EC659F5C225B057E00756360 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EC659F3A225B057D00756360;
+					};
+				};
+			};
+			buildConfigurationList = EC659F36225B057D00756360 /* Build configuration list for PBXProject "TimeLinerForUniv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC659F32225B057D00756360;
+			productRefGroup = EC659F3C225B057D00756360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC659F3A225B057D00756360 /* TimeLinerForUniv */,
+				EC659F51225B057E00756360 /* TimeLinerForUnivTests */,
+				EC659F5C225B057E00756360 /* TimeLinerForUnivUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC659F39225B057D00756360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659F4C225B057E00756360 /* LaunchScreen.storyboard in Resources */,
+				EC659F49225B057E00756360 /* Assets.xcassets in Resources */,
+				EC659F44225B057D00756360 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659F50225B057E00756360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659F5B225B057E00756360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC659F37225B057D00756360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659F41225B057D00756360 /* ViewController.swift in Sources */,
+				EC659F3F225B057D00756360 /* AppDelegate.swift in Sources */,
+				EC659F47225B057D00756360 /* TimeLinerForUniv.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659F4E225B057E00756360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659F57225B057E00756360 /* TimeLinerForUnivTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659F59225B057E00756360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659F62225B057E00756360 /* TimeLinerForUnivUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC659F54225B057E00756360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC659F3A225B057D00756360 /* TimeLinerForUniv */;
+			targetProxy = EC659F53225B057E00756360 /* PBXContainerItemProxy */;
+		};
+		EC659F5F225B057E00756360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC659F3A225B057D00756360 /* TimeLinerForUniv */;
+			targetProxy = EC659F5E225B057E00756360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC659F42225B057D00756360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC659F43225B057D00756360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC659F4A225B057E00756360 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC659F4B225B057E00756360 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC659F64225B057E00756360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC659F65225B057E00756360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC659F67225B057E00756360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW653VMTVF;
+				INFOPLIST_FILE = TimeLinerForUniv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gegegi.TimeLinerForUniv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC659F68225B057E00756360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW653VMTVF;
+				INFOPLIST_FILE = TimeLinerForUniv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gegegi.TimeLinerForUniv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC659F6A225B057E00756360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW653VMTVF;
+				INFOPLIST_FILE = TimeLinerForUnivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gegegi.TimeLinerForUnivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeLinerForUniv.app/TimeLinerForUniv";
+			};
+			name = Debug;
+		};
+		EC659F6B225B057E00756360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW653VMTVF;
+				INFOPLIST_FILE = TimeLinerForUnivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gegegi.TimeLinerForUnivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeLinerForUniv.app/TimeLinerForUniv";
+			};
+			name = Release;
+		};
+		EC659F6D225B057E00756360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW653VMTVF;
+				INFOPLIST_FILE = TimeLinerForUnivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gegegi.TimeLinerForUnivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeLinerForUniv;
+			};
+			name = Debug;
+		};
+		EC659F6E225B057E00756360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW653VMTVF;
+				INFOPLIST_FILE = TimeLinerForUnivUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.gegegi.TimeLinerForUnivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeLinerForUniv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC659F36225B057D00756360 /* Build configuration list for PBXProject "TimeLinerForUniv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659F64225B057E00756360 /* Debug */,
+				EC659F65225B057E00756360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC659F66225B057E00756360 /* Build configuration list for PBXNativeTarget "TimeLinerForUniv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659F67225B057E00756360 /* Debug */,
+				EC659F68225B057E00756360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC659F69225B057E00756360 /* Build configuration list for PBXNativeTarget "TimeLinerForUnivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659F6A225B057E00756360 /* Debug */,
+				EC659F6B225B057E00756360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC659F6C225B057E00756360 /* Build configuration list for PBXNativeTarget "TimeLinerForUnivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659F6D225B057E00756360 /* Debug */,
+				EC659F6E225B057E00756360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC659F45225B057D00756360 /* TimeLinerForUniv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC659F46225B057D00756360 /* TimeLinerForUniv.xcdatamodel */,
+			);
+			currentVersion = EC659F46225B057D00756360 /* TimeLinerForUniv.xcdatamodel */;
+			path = TimeLinerForUniv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC659F33225B057D00756360 /* Project object */;
+}
